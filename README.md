@@ -1,6 +1,12 @@
 # Harden My Repo
 
-Evidence-first tools for repositories that use AI coding agents.
+Evidence-backed repository reliability findings and fixes.
+
+## Repository Reliability Sprint
+
+The **[$750 Repository Reliability Sprint](https://hardenmyrepo.com/repository-reliability-sprint?utm_source=github&utm_medium=profile&utm_campaign=reliability_sprint)** reviews one repository's CI/CD, release path, dependency controls, secret handling, ownership boundaries, and recovery evidence. It includes a prioritized report, a review-ready patch for up to three agreed fixes, and a verification ledger.
+
+Start with a **[free five-point teardown](https://hardenmyrepo.com/repository-reliability-sprint?utm_source=github&utm_medium=profile&utm_campaign=reliability_sprint#teardown)** of a public repository you maintain. No sales call or production access is required.
 
 ## Start free
 
@@ -34,8 +40,8 @@ Review the three shell scripts, then run these commands inside Claude Code:
 /plugin install harden-my-repo-hooks@harden-my-repo
 ```
 
-## Deeper local evidence
+## Self-serve local evidence
 
-[Harden My Repo](https://hardenmyrepo.com/?utm_source=github&utm_medium=profile&utm_campaign=profile-readme) also provides an adaptable setup kit and a bounded local analyzer that produces HTML, Markdown, and JSON reports plus inert remediation drafts.
+[Harden My Repo](https://hardenmyrepo.com/?utm_source=github&utm_medium=profile&utm_campaign=self_serve) also provides an adaptable setup kit and a bounded local analyzer that produces HTML, Markdown, and JSON reports plus inert remediation drafts.
 
-These are configuration-readiness tools, not security audits or certifications. Findings are review prompts and should be evaluated against each repository's architecture and risk tolerance.
+The sprint and self-serve tools are repository reliability/configuration reviews, not penetration tests, security certifications, or guarantees. Findings are evaluated against the repository's architecture and risk tolerance before any remediation is proposed.
