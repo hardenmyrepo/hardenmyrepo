@@ -10,6 +10,14 @@ Evidence-first tools for repositories that use AI coding agents.
 
 ## Use the Doctor Action
 
+Run the CLI directly from GitHub with Node.js 20 or newer:
+
+```bash
+npm exec --yes --package=github:hardenmyrepo/doctor -- harden-my-repo .
+```
+
+Or add the maintained major version to GitHub Actions:
+
 ```yaml
 - uses: hardenmyrepo/doctor@v1
   with:
