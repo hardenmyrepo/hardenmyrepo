@@ -6,7 +6,7 @@ Evidence-first tools for repositories that use AI coding agents.
 
 - **[Harden My Repo Doctor](https://github.com/hardenmyrepo/doctor)** — a dependency-free Node.js CLI and GitHub Action that checks inspectable repository-readiness evidence without executing project code or using the network.
 - **[Browser Repository Audit](https://hardenmyrepo.github.io/browser-audit/)** — a static, open-source readiness snapshot. Repository data stays in the browser; there is no login, analytics, cookie, or upload.
-- **[Claude Code Hooks](https://github.com/hardenmyrepo/claude-code-hooks)** — three tested, inspectable project hooks for dangerous commands, protected paths, and format-on-edit.
+- **[Claude Code Hooks](https://github.com/hardenmyrepo/claude-code-hooks)** — three tested, inspectable hooks for dangerous commands, protected paths, and format-on-edit, installable as a Claude Code plugin.
 
 ## Use the Doctor Action
 
@@ -23,6 +23,15 @@ Or add the maintained major version to GitHub Actions:
   with:
     path: .
     fail-below: "60"
+```
+
+## Install the Claude Code hooks
+
+Review the three shell scripts, then run these commands inside Claude Code:
+
+```text
+/plugin marketplace add hardenmyrepo/claude-code-hooks
+/plugin install harden-my-repo-hooks@harden-my-repo
 ```
 
 ## Deeper local evidence
